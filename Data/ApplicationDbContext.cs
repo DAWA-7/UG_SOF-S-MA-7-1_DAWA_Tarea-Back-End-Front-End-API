@@ -11,6 +11,11 @@ namespace APIClientes.Data
         }
 
         public DbSet<Usuarios> Usuario { get; set; }
+        public DbSet<AUTOR_SUGERENCIA> AUTOR_SUGERENCIA { get; set; }
+        public DbSet<AUTOR_SUGERENCIA_SUGERENCIA> AUTOR_SUGERENCIA_SUGERENCIA { get; set; }
+        public DbSet<ESTADO> ESTADO { get; set; }
+        public DbSet<SUGERENCIA> SUGERENCIA { get; set; }
+        public DbSet<USUARIO> USUARIO { get; set; }
 
     }
 }

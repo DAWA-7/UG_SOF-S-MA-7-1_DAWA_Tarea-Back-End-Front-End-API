@@ -25,11 +25,11 @@ public class UsuariosController : ControllerBase
     public async Task<ActionResult> PostCliente(Login login)
     {
         var userTemp = await _context.Usuario.FirstOrDefaultAsync
-            (x => x.Username.ToLower().Equals(login.USERNAME));
+            (x => x.USERNAME.ToLower().Equals(login.USERNAME));
         if (userTemp == null){ 
             return BadRequest("UserNotFound"); 
         }
-        else if (userTemp.Password.Equals(login.PASSWORD))   {
+        else if (userTemp.PASSWORD.Equals(login.PASSWORD))   {
             //return Ok("UserFound");
             return Ok(JsonConvert.SerializeObject(CrearToken(userTemp)));
         }
@@ -42,8 +42,8 @@ public class UsuariosController : ControllerBase
     {
         var claims = new List<Claim>
         {
-            new Claim(ClaimTypes.NameIdentifier, user.IdUsuario.ToString()),
-            new Claim(ClaimTypes.Name, user.Username),
+            new Claim(ClaimTypes.NameIdentifier, user.USUARIOID.ToString()),
+            new Claim(ClaimTypes.Name, user.USERNAME),
         };
 
         var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.

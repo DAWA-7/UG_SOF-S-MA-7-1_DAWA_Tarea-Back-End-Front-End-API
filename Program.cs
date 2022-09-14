@@ -68,5 +68,5 @@ app.UseCors(x => x.AllowAnyOrigin()
     .AllowAnyHeader());
 
 app.MapControllers();
-
+var scope = app.Services.CreateScope();
 app.Run();

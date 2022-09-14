@@ -4,9 +4,9 @@ namespace SOF_S_MA_7_1_TAREA_Back_End_Front_End_API.Models;
 
 public class Usuarios
 {
-    [Key] public int IdUsuario { get; set; }
+    [Key] public int USUARIOID { get; set; }
     [Required] 
-    public string Username { get; set; }        
+    public string USERNAME { get; set; }        
     [Required] 
-    public string Password { get; set; }
+    public string PASSWORD { get; set; }
 }
