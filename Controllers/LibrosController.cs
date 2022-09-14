@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -11,6 +12,7 @@ using SOF_S_MA_7_1_TAREA_Back_End_Front_End_API.Models.Catalog;
 namespace SOF_S_MA_7_1_TAREA_Back_End_Front_End_API.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize]
     [ApiController]
     public class LibrosController : ControllerBase
     {
