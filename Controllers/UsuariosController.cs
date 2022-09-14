@@ -1,10 +1,10 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using APIClientes.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
+using SOF_S_MA_7_1_TAREA_Back_End_Front_End_API.Data;
 using SOF_S_MA_7_1_TAREA_Back_End_Front_End_API.Models;
 
 namespace SOF_S_MA_7_1_TAREA_Back_End_Front_End_API.Controllers;

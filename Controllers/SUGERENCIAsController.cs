@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using APIClientes.Data;
 using SOF_S_MA_7_1_TAREA_Back_End_Front_End_API.Models;
 using Microsoft.AspNetCore.Authorization;
+using SOF_S_MA_7_1_TAREA_Back_End_Front_End_API.Data;
 
 namespace SOF_S_MA_7_1_TAREA_Back_End_Front_End_API.Controllers
 {

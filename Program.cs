@@ -1,8 +1,8 @@
-using APIClientes.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using SOF_S_MA_7_1_TAREA_Back_End_Front_End_API.Data;
 using Swashbuckle.AspNetCore.Filters;
 
 var builder = WebApplication.CreateBuilder (args);
