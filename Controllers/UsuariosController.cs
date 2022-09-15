@@ -34,7 +34,7 @@ public class UsuariosController : ControllerBase
             return Ok(JsonConvert.SerializeObject(CrearToken(userTemp)));
         }
         else{
-            return BadRequest("keyError");
+            return BadRequest("Contraseña Incorrecta");
         }         
     }
     

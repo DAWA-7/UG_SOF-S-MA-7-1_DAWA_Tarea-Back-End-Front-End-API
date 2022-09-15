@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿
+using Microsoft.EntityFrameworkCore;
 using SOF_S_MA_7_1_TAREA_Back_End_Front_End_API.Models;
 using SOF_S_MA_7_1_TAREA_Back_End_Front_End_API.Models.Catalog;
 
