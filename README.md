@@ -1,5 +1,5 @@
 # SOF-S-MA-7-1-TAREA-Back-End_Front-End-API
-Tarea: Seguridad desde el Back-end y front-end
+## Tarea: Seguridad desde el Back-end y front-end
 
 
 Considerando lo visto en clase sobre el uso de token para la seguridad desde la aplicación realizar lo siguiente:
