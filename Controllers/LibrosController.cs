@@ -28,7 +28,6 @@ namespace SOF_S_MA_7_1_TAREA_Back_End_Front_End_API.Controllers
         public async Task<ActionResult<IEnumerable<Libro>>> GetLibro()
         {
             IQueryable<Libro> qlibro = _context.Libro.Include(e => e.Editorial).Include(e => e.Imagen).Include(e => e.Categoria).Include(e => e.Autor);
-
             if (qlibro == null)
           {
               return NotFound();

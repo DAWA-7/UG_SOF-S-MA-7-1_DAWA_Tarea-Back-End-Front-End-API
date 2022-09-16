@@ -13,11 +13,7 @@ namespace SOF_S_MA_7_1_TAREA_Back_End_Front_End_API.Data
         }
 
         public DbSet<Usuarios> Usuario { get; set; }
-        public DbSet<AUTOR_SUGERENCIA> AUTOR_SUGERENCIA { get; set; }
-        public DbSet<AUTOR_SUGERENCIA_SUGERENCIA> AUTOR_SUGERENCIA_SUGERENCIA { get; set; }
-        public DbSet<ESTADO> ESTADO { get; set; }
         public DbSet<SUGERENCIA> SUGERENCIA { get; set; }
-        public DbSet<USUARIO> USUARIO { get; set; }
         public DbSet<Libro> Libro { get; set; }
         public DbSet<Categoria> Categoria { get; set; }
         public DbSet<CategoriaLibro> CategoriaLibro { get; set; }
